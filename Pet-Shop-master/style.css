@@ -1,12 +1,16 @@
+*{
+    font-family: sans-serif;
+    font-size: 16px;
+    height: auto;
+}
+
 header{
     background-color: #ddd;
     width: 100%;
-    height: auto;
 }
 
 .topo{
     width: 80%;
-    height: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -15,7 +19,6 @@ header{
 
 .logo{
     width: fit-content;
-    height: auto;
 }
 
 .logo img{
@@ -24,7 +27,6 @@ header{
 
 nav{
     width: fit-content;
-    height: auto;
 }
 
 nav ul{
@@ -49,7 +51,6 @@ nav ul li a{
     color: #333;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 
 nav ul li a:hover{
@@ -68,12 +69,11 @@ nav ul li a:hover{
 }
 
 .servicos{
-    width: 100%;
-    height: auto;
+    width: 95%;
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
-    padding: 0 30px;
+    margin: 40px auto;
+    padding: 0px;
 }
 
 .item-servicos{
@@ -90,7 +90,7 @@ nav ul li a:hover{
     background-color: #000;
     color: #fff;
     margin: 0;
-    font-family: sans-serif;
+    font-size: 1.2rem;
     margin-top: -5px;
     padding: 5px 0;
     text-align: center;
@@ -106,21 +106,19 @@ nav ul li a:hover{
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 
+/* ###################################################CLIENTE############################################################# */
+
 .cliente{
-    width: 100%;
-    height: auto;
+    width: 95%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 40px 0;
-    padding: 0 30px;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
 }
 
 .cliente h2{
-    height: auto;
     justify-content: space-between;
     margin: 40px 0;
     /* padding: 0 30px; */
@@ -133,7 +131,6 @@ nav ul li a:hover{
 
 .resumo-cliente{
     width: 22%;
-    height: auto;
     text-align: center;
     font-family: sans-serif;
     font-size: 40px;
@@ -142,4 +139,51 @@ nav ul li a:hover{
 
 .resumo-cliente img{
     width: 100%;
+}
+
+/* ###################################################ATENDIMENTO######################################################### */
+
+.atendimento{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.atendimento-foto, .atedimento-conteudo{
+    width: 50%;
+    height: auto;
+}
+
+.atendimento-foto img{
+    width: 100%;
+}
+
+.atendimento-conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 212, 3);
+}
+
+.atendimento-conteudo h1{
+    font-size: 2rem;
+}
+
+.atendimento-conteudo h2{
+    font-size: 2.5rem;
+}
+
+/* ######################################################FALE CONOSCO######################################################## */
+
+.fale-conosco{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
 }
