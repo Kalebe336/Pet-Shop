@@ -438,7 +438,6 @@ p {
     margin: 50px auto;
 }
 
-.accordion-button {
-    background-color: #000;
-    color: #fff;
+.perguntas .accordion-button {
+    background-color: #99a0a8;
 }
